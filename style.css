@@ -6,13 +6,15 @@ html, body{
     margin: 0;
     padding: 0;
     background: #adefd1ff;
+    font-family: 'Signika Negative', sans-serif;
     font-size: 0.8rem;
     width: 100vw;
 }
 
 .container {
     width: 100%;
-    max-width: 450px;
+    min-width: 450px;
+    max-width: 800px;
     margin: 10vh auto;
     background: #00203fff;
 }
@@ -52,6 +54,7 @@ select {
 
 
 .btn {
+    font-family: 'Signika Negative', sans-serif;
     padding: 0 0.8em;
     height: 30px;
     border-radius: 4px;
@@ -94,4 +97,17 @@ select {
     color: #D5D4D8;
     margin: 0;
     padding-bottom: 0.7em;
+}
+
+@media all and (min-width: 600px){
+    #color-scheme p {
+        font-size: 1.5rem;
+        padding-bottom: 0.2em;
+    }
+    .btn{
+        font-size: 2em;
+    }
+    select{
+        font-size: 1.3rem;
+    }
 }
