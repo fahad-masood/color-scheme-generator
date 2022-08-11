@@ -1,5 +1,6 @@
-# color-scheme-generator
+# connect-colors
 
+- Connect Colors is a color scheme generator website
 - This project is made using HTML, CSS, Javascript
 - Color Api is used for getting the color scheme
 
@@ -14,3 +15,5 @@
   5. Complement
   6. Analogic complement
   7. Triad
+  
+  [Live Demo](https://fahad-masood.github.io/connect-colors/)
